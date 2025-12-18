@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.target.checkers.rc
+    init.target.cronos.rc
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -48,8 +48,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayCheckers \
-    SystemUIOverlayCheckers
+    FrameworksResOverlayCronos \
+    SystemUIOverlayCronos
 
 # Screen
 TARGET_SCREEN_DENSITY := 195
@@ -89,7 +89,7 @@ PRODUCT_PACKAGES += \
     mt76x8_wlan
 
 PRODUCT_PACKAGES += \
-    WifiResOverlayCheckers
+    WifiResOverlayCronos
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
@@ -98,4 +98,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, device/amazon/mt8163-common/mt8163.mk)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/amazon/checkers/checkers-vendor.mk)
+$(call inherit-product, vendor/amazon/cronos/cronos-vendor.mk)

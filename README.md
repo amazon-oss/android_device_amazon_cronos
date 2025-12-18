@@ -1,4 +1,4 @@
-# Android Device tree for the Amazon Echo Show 5 (2019) (`checkers`)
+# Android Device tree for the Amazon Echo Show 5 (2021) (`cronos`)
 
 ```
 #

@@ -4,8 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SystemUIOverlayCheckers",
-    sdk_version: "current",
+    name: "WifiResOverlayCronos",
     resource_dirs: ["res"],
     vendor: true,
 }

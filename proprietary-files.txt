@@ -1,4 +1,4 @@
-# Unpinned blobs from Amazon/checkers/checkers:6.0/NS6570/6086N:user/amz-p,release-keys
+# Unpinned blobs from Amazon/cronos/cronos:6.0/NS6570/6086N:user/amz-p,release-keys
 
 # Audio
 lib/libasp.so
