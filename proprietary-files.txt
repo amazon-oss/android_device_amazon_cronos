@@ -1,10 +1,10 @@
-# Unpinned blobs from Amazon/cronos/cronos:6.0/NS6570/6086N:user/amz-p,release-keys
+# Unpinned blobs from Amazon/cronos/cronos:6.0/NS6571/6208N:user/amz-p,release-keys (Pinned from Amazon/cronos/cronos:6.0/NS6550/3741N:user/amz-p,release-keys)
 
 # Audio
 lib/libasp.so
 lib/libaspclient.so
 lib/libsmartvolume.so
-vendor/lib/hw/audio.primary.mt8163.so:vendor/lib/hw/audio.primary_amazon.mt8163.so
+vendor/lib/hw/audio.primary.mt8163.so:vendor/lib/hw/audio.primary_amazon.mt8163.so|350be4d7bdaabf6b92e2561a40246aecf6b107c0
 vendor/lib/hw/audio.usb.mt8163.so
 vendor/lib/libaudiocompensationfilter.so
 vendor/lib/libaudiocomponentengine.so
@@ -21,38 +21,48 @@ vendor/lib/libmtklimiter.so
 vendor/lib/libmtkplayer.so
 vendor/lib/libmtkshifter.so
 vendor/lib/libspeech_enh_lib.so
+system/lib/libmediaextension.so
+system/lib/liblatencybenchmarker.so
+system/lib/libtensorflowlite_c.so
+system/lib/libedgeflow_core_neon.so
 
 # Audio (Configs)
-etc/audio_device.xml
+vendor/etc/audio-algorithms/AFE.cfg|7c75682999434dd5d7246f843f5855598275c5d8
+vendor/etc/audio-algorithms/asp.cfg|6d76891f69b9d672f99e7b28f4b50f6dfe7fdfcf
+vendor/etc/audio-algorithms/coefs_FBF.cfg|4dc7070ee0ab6e84e9afd849bea65f5330033968
+vendor/etc/audio-algorithms/coefs_FilterBank_160.cfg|5e4987a238152f5effc76ae3943a3b4d78b48735
+vendor/etc/audio-algorithms/coefs_FilterBank_640.cfg|034481183cd39e80a161b51c98b43f846aae7a3d
+vendor/etc/audio-algorithms/coefs_FilterBank_AnalysisSynthesis_1024.cfg|0589858a7701e5772b325c3b60e54a91803abbf5
+vendor/etc/audio-algorithms/EQ_100.cfg|0e0570bf2bf248467b1c9a32daba4c236858a227
+vendor/etc/audio-algorithms/EQ_40.cfg|0f271953f648f024c0fd816d5bcade710356eab5
+vendor/etc/audio-algorithms/EQ_60.cfg|fb06e3c7679f4636b200144a766f1768dae6598d
+vendor/etc/audio-algorithms/EQ_80.cfg|fb06e3c7679f4636b200144a766f1768dae6598d
+vendor/etc/audio-algorithms/hamming512_earcon.cfg|66611c049467939d554585c148baf24dd9db9470
+vendor/etc/audio-algorithms/hanning_320.cfg|1a9e75baa36333a74f486701320e7c963bf2c9fc
+vendor/etc/audio-algorithms/MBCL_10percent.cfg|315ebd018c644204f1849567600e8610438a66df
+vendor/etc/audio-algorithms/MBCL_20percent.cfg|1af4c5c6b40cb0c6773be4bd40713447e9f3d4ec
+vendor/etc/audio-algorithms/MBCL_default.cfg|b9d0b5b0d27bddb17bf52668206f0006129cca47
+vendor/etc/audio-algorithms/MBCL_VOIP.cfg|bb1fb29aaa38f3c43ffe798865ff1b5c658c1dea
+vendor/etc/audio-algorithms/Tap_AEC_mic1.cfg|675075abbf5f17934ed8f935e4036a03e4c02b0e
+vendor/etc/audio-algorithms/Tap_AEC_mic2.cfg|eee2598cace543111eaa1f2d7fba45eeb8a9aa6f
+vendor/etc/audio-algorithms/UserEQ.cfg|805dbdfe43a422153daabb19cd4c21182ccebe71
+vendor/etc/audio-algorithms/VOIPRxParametricEQ.cfg|05a3d2ba23352bab19612536b4392fb86931f0fc
+vendor/etc/audio-algorithms/VOIPTxParametricEQ.cfg|a119921452a4f0e35d8fe4c1f62fabd84204f202
 vendor/etc/audio_device.xml
 vendor/etc/audio_em.xml
 vendor/etc/audio_param/AudioParamOptions.xml
-vendor/etc/audio-algorithms/AFE.cfg
-vendor/etc/audio-algorithms/coefs_FBF.cfg
-vendor/etc/audio-algorithms/coefs_FilterBank_160.cfg
-vendor/etc/audio-algorithms/coefs_FilterBank_640.cfg
-vendor/etc/audio-algorithms/coefs_FilterBank_AnalysisSynthesis_1024.cfg
-vendor/etc/audio-algorithms/coefs_FilterBank_AnalysisSynthesis_1280.cfg
-vendor/etc/audio-algorithms/EQ_100.cfg
-vendor/etc/audio-algorithms/EQ_30.cfg
-vendor/etc/audio-algorithms/EQ_40.cfg
-vendor/etc/audio-algorithms/EQ_60.cfg
-vendor/etc/audio-algorithms/EQ_70.cfg
-vendor/etc/audio-algorithms/EQ_80.cfg
-vendor/etc/audio-algorithms/EQ_90.cfg
-vendor/etc/audio-algorithms/EQ.cfg
-vendor/etc/audio-algorithms/hamming512_earcon.cfg
-vendor/etc/audio-algorithms/hanning_320.cfg
-vendor/etc/audio-algorithms/MBCL_10percent.cfg
-vendor/etc/audio-algorithms/MBCL_20percent.cfg
-vendor/etc/audio-algorithms/MBCL_default.cfg
-vendor/etc/audio-algorithms/MBCL_VOIP.cfg
-vendor/etc/audio-algorithms/MBCL.cfg
-vendor/etc/audio-algorithms/Tap_AEC_mic1.cfg
-vendor/etc/audio-algorithms/Tap_AEC_mic2.cfg
-vendor/etc/audio-algorithms/UserEQ.cfg
-vendor/etc/audio-algorithms/VOIPRxParametricEQ.cfg
-vendor/etc/audio-algorithms/VOIPTxParametricEQ.cfg
+etc/audio_device_max98396.xml
+etc/audio_device_rt5616.xml
+etc/audio_device_tas5805m.xml
+etc/audio_device.xml
+
+# Audio (Firmware)
+etc/firmware/SMicBin_rt5518_mode1.dat
+etc/firmware/SMicBin_rt5518_mode2.dat
+etc/firmware/SMicBin_rt5518_mode3.dat
+etc/firmware/SMicBin_rt5518_mode4.dat
+etc/firmware/SMicBin_rt5518_mode5.dat
+etc/firmware/SMicBin_rt5518_mode6.dat
 
 # NVRAM
 vendor/bin/nvram_daemon
@@ -70,3 +80,6 @@ system/vendor/firmware/TxPwrLimit_MT76x8.dat:vendor/firmware/TxPwrLimit_MT76x8.d
 system/vendor/firmware/WIFI_RAM_CODE_MT7668.bin:vendor/firmware/WIFI_RAM_CODE_MT7668.bin
 system/vendor/firmware/WIFI_RAM_CODE2_SDIO_MT7668.bin:vendor/firmware/WIFI_RAM_CODE2_SDIO_MT7668.bin
 system/vendor/firmware/wifi.cfg:vendor/firmware/wifi.cfg
+
+# Touch
+etc/firmware/gt9xx_fw.bin
