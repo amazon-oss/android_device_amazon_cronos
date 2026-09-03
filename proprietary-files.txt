@@ -64,6 +64,9 @@ etc/firmware/SMicBin_rt5518_mode4.dat
 etc/firmware/SMicBin_rt5518_mode5.dat
 etc/firmware/SMicBin_rt5518_mode6.dat
 
+# Camera (tuning)
+system/vendor/lib/libcameracustom.so
+
 # NVRAM
 vendor/bin/nvram_daemon
 vendor/lib/libcustom_nvram.so

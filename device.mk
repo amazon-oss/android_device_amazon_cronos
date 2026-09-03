@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     mt76x8_bt
 
+
 # Init
 PRODUCT_PACKAGES += \
     init.target.cronos.rc
