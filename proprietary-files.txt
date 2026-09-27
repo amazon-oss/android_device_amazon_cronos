@@ -86,3 +86,8 @@ system/vendor/firmware/wifi.cfg:vendor/firmware/wifi.cfg
 
 # Touch
 etc/firmware/gt9xx_fw.bin
+
+# Thermal
+vendor/etc/.tp/thermal.conf
+vendor/etc/.tp/thermal.off.conf
+etc/.tp/thermal.policy.conf:vendor/etc/.tp/thermal.policy.conf
