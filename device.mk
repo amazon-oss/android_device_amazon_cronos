@@ -58,6 +58,10 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayCronos \
     SystemUIOverlayCronos
 
+# Parts
+PRODUCT_PACKAGES += \
+    EchoParts
+
 # Screen
 TARGET_SCREEN_DENSITY := 195
 TARGET_SCREEN_HEIGHT := 480
